@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Roboto+Mono:ital,wght@1,300&display=swap');
+body, html{
+    padding: 0px;
+    border: 0px;
+    margin:0;
+    font-family: 'JetBrains Mono', monospace;
+    background-color: rgb(32, 32, 32);
+    color:white;
+}
+/*header{
+    background-color: #508aab;
+    height: 640px;
+}*/
+#logo{
+    width: 200px;
+    height: 175px;
+}
+#log{ /*imagen del logo en la barra nav*/
+    display: inline-flex;
+}
+#nombre_cole{ /*et26 conf suiza*/
+    position: absolute;
+    display: inline;
+    padding-top:30px;
+}
+h3{
+    size: 60px;
+    font-size: 23px;
+    color:white
+}
+#arriba{
+    padding-top: 60px;
+    padding-right: 23px;
+    float: right;
+}
+#helado{
+    font-family: 'JetBrains Mono', monospace;
+    text-align: center;
+    font-size: 80px;
+    padding-top: 30px;
+    color: white;
+}
+a{
+    margin-right: 20px;
+    font-size: 23px;
+    color: white;
+    text-decoration: none
+}
+
+  a:hover:not(.active) {
+    color: rgb(0, 164, 252);
+  }
+  .active {
+    color: rgb(55, 195, 255);
+  }
+/*Esto es el heder*/
+
+section{
+    background-color: rgb(233, 248, 255);
+    height: 640px;
+    margin: 0%;
+}
+h2{
+    font-size: 40px;
+    font-family: 'JetBrains Mono', monospace;
+    padding-top: 35px;
+    margin: 0%;
+    color: black;
+    text-align: center;
+}
+.p{
+  margin-top: 10px;
+  margin-right: 34px;
+  display: inline;
+  float: right;
+  width: 30%;
+  height: 370px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section p{
+  padding: 20px;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 20px ;
+  /* text-align: center; */
+}
+img{
+  display: inline;
+    height: 390px;
+}
+.mySlides1, .mySlides2 {
+  display: none;
+padding-top: 5%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 90%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev{
+  margin-left: 64%;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  margin-right: 0;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+footer{
+  height: 290px;
+}
+#logof{
+   width: 175px;
+   height: 150px;
+}
+#fnombre_cole{ /*et26 conf suiza*/
+   position: absolute;
+   display: inline;
+   padding-top:25px;
+}
+#fdatos{
+   padding-top: 40px;
+   padding-bottom: 60px;
+   padding-right: 100px;
+   width: 100px;
+   height: 190px;
+   float: right;
+   line-height: 1.5;
+}
+#fdo{
+   padding-top: 40px;
+   padding-right: 20px;
+   float: right;
+   width: 200px;
+   line-height: 1.5;
+}
+#dos{
+   font-size: 25px;
+   text-decoration: underline;
+}
+#con{
+   font-size: 23px;
+   padding-left: 30px;
+}

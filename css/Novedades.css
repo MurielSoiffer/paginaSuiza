@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Roboto+Mono:ital,wght@1,300&display=swap');
+body, html{
+    padding: 0px;
+    border: 0px;
+    margin:0;
+    font-family: 'JetBrains Mono', monospace;
+    background-color: rgb(255, 255, 255);
+    color:white;
+}
+/*header{
+    background-color: #508aab;
+    height: 640px;
+}*/
+#logo{
+    width: 200px;
+    height: 175px;
+}
+#log{ /*imagen del logo en la barra nav*/
+    display: inline-flex;
+}
+#nombre_cole{ /*et26 conf suiza*/
+    position: absolute;
+    display: inline;
+    padding-top:30px;
+}
+h1{
+    font-family: 'JetBrains Mono', monospace;
+    text-align: center;
+    font-size: 80px;
+    padding-top: 30px;
+    color: white;
+}
+h2{
+    font-size: 60px;
+    text-align: center;
+}
+h3{
+    size: 60px;
+    font-size: 23px;
+    color:white
+}
+#arriba{
+    padding-top: 60px;
+    padding-right: 23px;
+    float: right;
+}
+#helado{
+    font-family: 'JetBrains Mono', monospace;
+    text-align: center;
+    font-size: 80px;
+    padding-top: 30px;
+    color: white;
+}
+a{
+    margin-right: 20px;
+    font-size: 23px;
+    color: white;
+    text-decoration: none
+}
+
+  a:hover:not(.active) {
+    color: rgb(0, 164, 252);
+  }
+  .active {
+    color: rgb(55, 195, 255);
+  }
+  #desaparecer{
+    color:  #508aab00;;
+}
+h2{
+    font-size: 60px;
+    text-align: center;
+}
+ /*esto es el header*/
+article{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.imagen-port img{
+    height: auto;
+}
+footer{
+    background-color: rgb(32, 32, 32);
+    height: 290px;
+  }
+  #logof{
+     width: 175px;
+     height: 150px;
+  }
+  #fnombre_cole{ /*et26 conf suiza*/
+     position: absolute;
+     display: inline;
+     padding-top:25px;
+  }
+  #fdatos{
+     padding-top: 40px;
+     padding-bottom: 60px;
+     padding-right: 100px;
+     width: 100px;
+     height: 190px;
+     float: right;
+     line-height: 1.5;
+  }
+  #fdo{
+     padding-top: 40px;
+     padding-right: 20px;
+     float: right;
+     width: 200px;
+     line-height: 1.5;
+  }
+  #dos{
+     font-size: 25px;
+     text-decoration: underline;
+  }
+  #con{
+     font-size: 23px;
+     padding-left: 30px;
+  }
+  

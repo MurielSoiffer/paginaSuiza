@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Roboto+Mono:ital,wght@1,300&display=swap');
+body{
+    padding: 0px;
+    margin:0;
+    font-family: 'JetBrains Mono', monospace;
+    color:white;
+    background-color: rgb(223, 223, 223);
+}
+header{
+    background-color: rgb(32, 32, 32);
+}
+#logo{
+    padding-left: 15px;
+    width: 170px;
+    height: 145px;
+}
+#log{ /*imagen del logo en la barra nav*/
+    display: inline-flex;
+}
+#nombre_cole{ /*et26 conf suiza*/
+    position: absolute;
+    display: inline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h3{
+    size: 60px;
+    font-size: 23px;
+    color:white
+}
+a{
+    margin-right: 20px;
+    font-size: 23px;
+    color: white;
+    text-decoration: none
+}
+a:hover:not(.activ) {
+    color: rgb(0, 164, 252);
+  }
+  .activ {
+    color: rgb(55, 195, 255);
+  }
+#arriba{
+    padding-top: 60px;
+    padding-right: 23px;
+    float: right;
+}
+img{
+    /*padding-top: 5%;*/
+    width: 650px;
+    height: 370px;
+}
+aside{
+    width: 50%;
+    float: right;
+}
+iframe{
+    float: right;
+    margin-top: 10px;
+    margin-right: 50px;
+    position: relative;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+section{
+    width: 50%;
+    display: inline-flex;
+}
+section p{
+    padding-top: 60px;
+    margin-left: 50px;
+    margin-top: 0;
+    font-size: 20px;
+    color: black;
+}

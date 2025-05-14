@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Roboto+Mono:ital,wght@1,300&display=swap');
+.wrapper {
+    margin: auto;
+    display: grid;
+    max-width: 80%;
+    grid-template-columns: repeat(5, 150px /*1fr*/);
+    grid-auto-rows: 100px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+  #box1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
+  #box2 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 5;
+  }
+  #box3 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  #box6 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
+  #box7 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
+
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hsla(273,91%,27%, 0.7);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#hover-galeria1{
+    background: hsla(273,91%,27%, 0.7);
+}
+#hover-galeria2{
+    background: rgba(6, 94, 132, 0.7);
+}
+#hover-galeria3{
+    background: rgba(37, 132, 6, 0.7);
+}
+#hover-galeria4{
+    background: rgba(132, 117, 6, 0.7);
+}
+#hover-galeria5{
+    background: rgba(132, 61, 6, 0.7);
+}
+#hover-galeria6{
+    background: rgba(229, 8, 211, 0.7);
+}
+#hover-galeria7{
+    background: rgba(132, 6, 42, 0.7);
+}
+.galeria-port{
+   display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.imagen-port{
+    height: 100%;
+    width: 100%;
+    margin: 7px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+
+    /*object-fit: cover;*/
+    display: grid;
+    /*display: block;*/
+}
+.imagen-port:hover .hover-galeria{
+    transform: scale(1);
+}
+.hover-galeria img{
+    width: 50px;
+}
+
+.hover-galeria p{
+    color: rgba(255, 255, 255, 0);
+    padding: 200px;
+}
+
+  article p{
+    color: black;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .modal-content p{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .modal2-content p,
+  .modal3-content p,
+  .modal4-content p{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+   .p{
+    float: right;
+    width: 48%;
+  }
+  .modal-content #truco,
+  .modal2-content #CANSAT,
+  .modal3-content #CANSAT,
+  .modal4-content #CANSAT{
+    margin: 0%;
+    display: inline;
+    width: 50%;
+    height: 98%;
+  }
+    /* EL coso de la pantallita que sobresale*/
+/* The Modal (background) */
+.modal,
+.modal2,
+.modal3,
+.modal4,
+.modal5,
+.modal6,
+.modal7 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  /* Modal Content/Box */
+  .modal-content,
+  .modal2-content,
+  .modal3-content,
+  .modal4-content,
+  .modal5-content,
+  .modal6-content,
+  .modal7-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%; /* Could be more or less, depending on screen size */
+    height: 70%;
+  }
+  /* The Close Button */
+  .close,
+  .close2,
+  .close3,
+  .close4,
+  .close5,
+  .close6,
+  .close7{
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close2:hover,
+  .close3:hover,
+  .close4:hover,
+  .close5:hover,
+  .close6:hover,
+  .close7:hover,
+  .close:focus,
+  .close2:focus,
+  .close3:focus,
+  .close4:focus,
+  .close5:focus,
+  .close6:focus,
+  .close7:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .centro{
+    text-align: center;
+  }
