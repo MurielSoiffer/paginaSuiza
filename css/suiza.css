@@ -7,10 +7,27 @@ body, html{
     background-color: rgb(32, 32, 32);
     color:white;
 }
-/*header{
-    background-color: #508aab;
-    height: 640px;
-}*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.escuela-logo{
+    display: flex;
+    align-items: center;
+}
+.escuela-logo img{
+    padding: 0;
+}
+.escuela-logo h3{
+    margin: 0;
+}
+.main-centro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 section{
     height: 640px;
     width: 50%;
@@ -34,17 +51,8 @@ aside{
 }
 
 #logo{
-    width: 200px;
-    height: 175px;
-}
-
-#log{ /*imagen del logo en la barra nav*/
-    display: inline-flex;
-}
-#nombre_cole{ /*et26 conf suiza*/
-    position: absolute;
-    display: inline;
-    padding-top:30px;
+    width: auto;
+    height: 125px;
 }
 h3{
     size: 60px;
@@ -63,14 +71,17 @@ a:hover:not(.activ) {
   .activ {
     color: rgb(55, 195, 255);
   }
-#arriba{
+/* #arriba{
     padding-top: 60px;
     padding-right: 23px;
     float: right;
-}
+} */
 #abajo{
-    padding-left: 15px;
-    padding-top: 50px;
+    /* padding-left: 15px;
+    padding-top: 50px; */
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
 }
 #abajo1{
     padding-left: 15px;
